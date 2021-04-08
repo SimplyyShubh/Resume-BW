@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: monospace;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  width: 95vw;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+main > div {
+  width: 50vw;
+  border: 2px solid gray;
+  padding: 20px 30px;
+}
+
+
+main > .right {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width:600px) { 
+    main {
+        flex-direction: column;
+        
+    }
+    main > div {
+        width: 100%;
+    }
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-bottom: 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.header > ul {
+  display: flex;
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.header > ul > li {
+  margin: 2px 4px;
+}
+
+.heading {
+  width: 100%;
+  background-color: #f7f7f7;
+  margin: 16px 0px;
+  padding: 4px 0px;
+  font-size: 1.4em!important;
+}
+
+.right {
+  color: #fff;
+}
+
+.right .heading {
+  background-color: rgba(255,255,255,0.1);
+  color: #fff;
+}
+
+.skills {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 0px;
+}
+.skills > li {
+  padding: 2px 4px;
+  margin: 2px 4px;
+  border: 1.5px solid black;
+  border-radius: 4px;
+}
+.section{
+    margin: 10px;
+}
+.section > .heading {
+  font-size: 2em;
+  text-align: center;
+}
+
